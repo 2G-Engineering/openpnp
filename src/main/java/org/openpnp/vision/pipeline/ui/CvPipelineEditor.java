@@ -86,6 +86,7 @@ public class CvPipelineEditor extends JPanel {
         registerStageClass(Add.class);
         registerStageClass(ComposeResult.class);
         registerStageClass(ConvertColor.class);
+        registerStageClass(ConvertKeyPointsToCircles.class);
         registerStageClass(ConvertModelToPoints.class);
         registerStageClass(ConvertModelToKeyPoints.class);
         registerStageClass(CreateFootprintTemplateImage.class);
